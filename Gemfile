@@ -7,3 +7,9 @@ gem 'sinatra'
 group :development, :test do
 	gem 'shotgun'
 end
+
+group :test do
+	gem 'cucumber-sinatra'
+	gem 'rspec'
+	gem 'capybara'
+end
