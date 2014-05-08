@@ -4,7 +4,6 @@ Feature: Bookmark Manager home page
   I want to save urls as bookmarks
 
 Scenario: 
-  Given a user 
-  When visits the home page
-  Then you should find an add button
+  Given a user visits the home page
+  Then the user should find an add button
 
