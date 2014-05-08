@@ -5,5 +5,5 @@ Feature: Bookmark Manager home page
 
 Scenario: 
   Given a user visits the home page
-  Then the user should find an add button
+  Then the user should find button "Add Link"
 

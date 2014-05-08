@@ -8,3 +8,7 @@
 Given(/^a user visits the home page$/) do
   visit '/'
 end
+
+Then(/^the user should find button "(.*?)"$/) do |name|
+  find_button(name)
+end

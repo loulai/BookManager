@@ -2,7 +2,7 @@ require 'sinatra/base'
 
 class BookManager < Sinatra::Base
   get '/' do
-    'Hello BookManager!'
+    erb :index
   end
 
   # start the server if ruby file executed directly
