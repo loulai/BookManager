@@ -12,3 +12,15 @@ end
 Then(/^the user should find button "(.*?)"$/) do |name|
   find_button(name)
 end
+
+Given(/^there are no links$/) do
+  Link.all.count == 0
+end
+
+When(/^the user adds a link$/) do
+  pending # express the regexp above with the code you wish you had
+end
+
+Then(/^a record of link is produced$/) do
+  pending # express the regexp above with the code you wish you had
+end
