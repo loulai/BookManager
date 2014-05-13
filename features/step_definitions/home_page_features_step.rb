@@ -18,9 +18,5 @@ Given(/^there are no links$/) do
 end
 
 When(/^the user adds a link$/) do
-  pending # express the regexp above with the code you wish you had
-end
-
-Then(/^a record of link is produced$/) do
-  pending # express the regexp above with the code you wish you had
+  Link.create(title: "Google", url: "http://google.com")
 end
