@@ -20,4 +20,8 @@ end
 When(/^the user adds a link$/) do
   Link.create(title: "Google", url: "http://google.com")
 end
-#
+
+Then(/^the user should see the link$/) do
+  
+end
+
